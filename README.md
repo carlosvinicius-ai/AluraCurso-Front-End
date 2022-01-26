@@ -2,9 +2,10 @@
 
 Repositório criado com o intuito de compartilhar meu aprendizado através dos cursos proporcionados pela <a href="https://www.alura.com.br/?gclid=Cj0KCQiAubmPBhCyARIsAJWNpiOF9bSdfTlc0-SeF3YJUg-ifBCVSXCHb4tbrmTFm2xtjoDul14Qv9kaAhPaEALw_wcB">Alura</a>
 
-## PROJETOS
+## 📝 PROJETOS
 
 - <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/Barbearia-Alura">Barbearia Alura</a>
+- <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/aluraconf">AluraConf</a>
 
 ##  **🤝 Colaboradores**
 
