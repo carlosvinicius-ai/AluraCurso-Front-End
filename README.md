@@ -6,6 +6,7 @@ Repositório criado com o intuito de compartilhar meu aprendizado através dos c
 
 - <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/Barbearia-Alura">Barbearia Alura</a>
 - <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/aluraconf">AluraConf</a>
+- <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/Alurinha">Alurinha</a>
 
 ##  **🤝 Colaboradores**
 
@@ -26,6 +27,15 @@ Repositório criado com o intuito de compartilhar meu aprendizado através dos c
       <b>Pedro Marins</b>
     </sub>
   </a>
-</td> 
+</td>
+        <td align="center">
+      <a href="">
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEZUryu34Vq1A/profile-displayphoto-shrink_400_400/0/1530658790068?e=1649289600&v=beta&t=VtYAHOopPKy0AL3N0xwkKpt6oXr_Bo871M_wireoOb4" width="100px;" alt="Foto do Yuri Padilha no Linkedin"/><br>
+        <sub>
+          <b>Yuri Padilha</b>
+        </sub>
+      </a>
+    </td>
 </tr>
 </table>
+
