@@ -7,7 +7,7 @@ Repositório criado com o intuito de compartilhar meu aprendizado através dos c
 - <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/Barbearia-Alura">Barbearia Alura</a>
 - <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/aluraconf">AluraConf</a>
 - <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/Alurinha">Alurinha</a>
-- <a href="#">Apeperia</a>
+- <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/Apeperia">Apeperia</a>
 
 ##  **🤝 Colaboradores**
 
