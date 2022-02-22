@@ -1,0 +1,19 @@
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    font-family: $font;
+    // Este trecho de estilo é para posicionar o footer no final da página
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+    &-logo{
+        max-width: 100px;
+    }
+
+    &-text{
+        margin: auto;
+        @include font-size(14px);
+    }
+}

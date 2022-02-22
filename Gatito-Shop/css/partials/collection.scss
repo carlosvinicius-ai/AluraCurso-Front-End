@@ -1,0 +1,151 @@
+$half-width: 50%;
+$full-width: 100%;
+
+@mixin theme-collection($half-post: true){
+    @include for-phone-only {
+        width: $full-width;
+    }
+
+    @if $half-post {
+        width: $half-width;
+    } 
+    @else {
+        width: $full-width;    
+    }
+}
+
+@mixin font-collection($half-title: true){
+    @include for-phone-only {
+        @include font-size(16px);
+    }
+    @if $half-title {
+        @include font-size(18px);
+    }
+    @else{
+        @include font-size(22px);
+    }
+}
+
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    font-family: $font;
+
+    @include for-phone-only {    
+        width: 90%;
+    }
+
+    &-post{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        @include theme-collection($half-post: false);
+
+        &.half{
+            @include theme-collection($half-post: true);
+        }
+    }
+
+    &-figure {
+        width: 50%;
+    }
+
+    &-img {
+        width: 100%;
+    }
+
+    &-about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        text-align: center;
+    }
+
+    &-title{
+        color: $dark-gray;
+        text-decoration: unset;
+        letter-spacing: 1px;
+        width: 100%;
+        @extend %default-margin-top, %default-margin-bottom;
+        @include font-collection($half-title: false);
+
+            &.half{
+                @include font-collection($half-title: true);
+            }
+
+            &:hover {
+                color: $purple;
+                text-decoration: underline;
+            }
+    }
+
+    &-date {
+        @extend %no-margin-top, %no-margin-bottom, %default-margin-left, %default-margin-right;
+        @include font-size(12px);
+        font-style: italic;
+        width: 20%;
+            @include for-phone-only {
+                @include font-size(10px);
+            }
+
+            @include for-tablet-only {    
+                width: 30%;
+            }
+    }
+
+    &-tag {
+        @include font-size(14px);
+        width: 50px;
+        padding: 5px 7px;
+        color: $purple;
+        border: 1px solid $purple;
+        @extend %no-margin-top, %no-margin-bottom, %default-margin-left, %default-margin-right;
+            @include for-phone-only {    
+                width: 30px;
+                @include font-size(12px);
+            }
+            
+            @include for-tablet-only {    
+                width: 35px;
+                @include font-size(12px);
+            }
+    }
+
+    &-breadcrumb {
+        background-color: $light-gray;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .breadcrumb {
+        &-link {
+            @include font-size(18px);
+            text-decoration: unset;
+            color: $dark-gray;
+            letter-spacing: 1px;
+            
+            &:hover {
+                color: $purple;
+                text-decoration: underline;
+            }
+        }
+
+        &-img {
+            width: 14px;
+            margin: 10px;
+        }
+    }
+    
+}
