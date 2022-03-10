@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Gemunu Libre', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #240046;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    padding: 70px;
+    margin: 40px;
+    background-color: #5a189a;
+    border-radius: 7px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 3px solid #c77dff;
+}
+
+.title{
+    color: #f8f9fa; 
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.card input{
+    background-color: #10002b;
+    border: 0;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #f8f9fa;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    outline: none;
+}
+
+.card input::placeholder{
+    color: #adb5bd;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 45px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #c77dff;
+    color: #212529;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.btn:hover{
+    background-color: #3c096c;
+    color: #dee2e6;
+}
+
+.nota{
+    color: #f8f9fa;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 15px auto;
+    border-top: 1px solid #e0aaff;
+}
+
+.footer h2{
+    color: #f8f9fa;
+    padding-top: 20px;
+    font-weight: 200;
+}
+
+.footer a{
+    color: #d90429;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .card{
+        width: 70%;
+    }
+}
