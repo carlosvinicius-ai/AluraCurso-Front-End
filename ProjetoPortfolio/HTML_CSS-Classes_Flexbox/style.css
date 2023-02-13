@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #393E46;
+    color: #F7F7F7;
+}
+
+.titulo-destaque{
+    color: #6D9886;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+
+}
