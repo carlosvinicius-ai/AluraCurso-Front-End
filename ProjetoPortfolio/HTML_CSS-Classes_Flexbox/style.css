@@ -10,6 +10,7 @@ body {
     height: 100vh;
     background-color: #393E46;
     color: #F7F7F7;
+    overflow: hidden;
 }
 
 .titulo-destaque {
@@ -17,7 +18,7 @@ body {
 }
 
 .apresentacao {
-    margin:10%;
+    margin:10% ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,6 +26,9 @@ body {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -40,7 +44,7 @@ body {
 
 .apresentacao__conteudo__botao {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .apresentacao__conteudo__botao__link {
@@ -54,4 +58,9 @@ body {
     padding: 22px 0px;
     text-decoration: none;
     color: #393E46;
+}
+
+img {
+    width: 460px;
+    height: 530px;
 }
