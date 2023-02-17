@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing: border-box;
+    
 }
 
 body {
-    height: 100vh;
+    box-sizing: border-box;
     background-color: #393E46;
     color: #F7F7F7;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 .apresentacao {
-    margin: 6%;
+    padding: 8%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -28,6 +28,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+strong{
+    cursor: pointer;
+}
+
+strong:hover {
+    transition: 1s ease;
+    color: #6D9886;
 }
 
 .apresentacao__conteudo__titulo {
@@ -81,4 +90,14 @@ body {
 .foto {
     width: 460px;
     height: 530px;
+}
+
+.rodape {
+    color: #f6f6f6;
+    background-color: #6D9886;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
