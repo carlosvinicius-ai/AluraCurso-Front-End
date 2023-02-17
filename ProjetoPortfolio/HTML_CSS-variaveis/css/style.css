@@ -106,7 +106,6 @@ strong:hover {
     font-size: 24px;
     text-align: center;
     width: 378px;
-    /* background-color: #6D9886; */
     border-radius: 8px;
     padding: 22px 0px;
     text-decoration: none;
@@ -134,4 +133,8 @@ strong:hover {
     font-family: var(--texto);
     font-size: 24px;
     font-weight: 400;
+}
+
+.nome {
+    color: var(--hover);
 }
