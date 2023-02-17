@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --principal: #393E46;
+    --secundaria: #f7f7f7;
+    --tercearia: #6D9886;
+    
+    --titulo: 'Krona One', sans-serif;
+    --texto: 'Montserrat', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +18,8 @@
 
 body {
     box-sizing: border-box;
-    background-color: #393E46;
-    color: #F7F7F7;
+    background-color: var(--principal);
+    color: var(--secundaria);
 }
 
 .cabecalho {
@@ -22,15 +32,20 @@ body {
 }
 
 .cabecalho__menu__link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--texto);
     font-size: 24px;
     font-weight: 600;
-    color: #6D9886;
+    color: var(--tercearia);
     text-decoration: none;
+    transition: 1s all;
+}
+
+.cabecalho__menu__link:hover {
+    font-size: 28px;
 }
 
 .titulo-destaque {
-    color: #6D9886;
+    color: var(--tercearia);
 }
 
 .apresentacao {
@@ -57,12 +72,12 @@ strong:hover {
 }
 
 .apresentacao__conteudo__titulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--titulo);
     font-size: 36px;
 }
 
 .apresentacao__conteudo__texto {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--texto);
     font-weight: 400;
     font-size: 24px;
 }
@@ -76,7 +91,7 @@ strong:hover {
 }
 
 .apresentacao__suntitulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--titulo);
     font-weight: 400;
 }
 
@@ -85,7 +100,7 @@ strong:hover {
     align-items: center;
     justify-content: center;
     gap: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--texto);
     font-weight: 600;
     font-size: 24px;
     text-align: center;
@@ -94,13 +109,13 @@ strong:hover {
     border-radius: 8px;
     padding: 22px 0px;
     text-decoration: none;
-    color: #f6f6f6;
-    border: 2px dashed #6D9886;
+    color: var(--secundaria);
+    border: 2px dashed var(--tercearia);
     transition: 1s all;
 }
 
 .apresentacao__conteudo__botao__link:hover {
-    background-color: #6D9886;
+    background-color: var(--tercearia);
     font-size: 26px;
 }
 
@@ -110,11 +125,11 @@ strong:hover {
 }
 
 .rodape {
-    color: #f6f6f6;
-    background-color: #6D9886;
+    color: var(--secundaria);
+    background-color: var(--tercearia);
     padding: 24px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--texto);
     font-size: 24px;
     font-weight: 400;
 }
