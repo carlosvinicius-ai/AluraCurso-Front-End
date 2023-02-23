@@ -49,7 +49,7 @@ body {
     color: var(--tercearia);
 }
 
-.apresentacao {
+.apresentaca {
     padding: 5%;
     display: flex;
     align-items: center;
@@ -148,7 +148,7 @@ strong:hover {
     .cabecalho__menu {
         justify-content: center;
     }
-    .apresentacao {
+    .apresentaca {
         flex-direction: column-reverse;
         padding: 5%;
     }
