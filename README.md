@@ -10,6 +10,7 @@ Repositório criado com o intuito de compartilhar meu aprendizado através dos c
 - <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/Apeperia">Apeperia</a>
 - <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/Gatito-Shop">Gatito Shop</a>
 - <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/ProjetoPortfolio">Projeto Portfolio</a>
+- <a href="https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/aluramidi">Alura Midi</a>
 
 ##  **🤝 Colaboradores**
 
