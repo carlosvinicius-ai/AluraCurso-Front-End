@@ -34,7 +34,7 @@ body {
 
 .cabecalho__menu__link {
     font-family: var(--texto);
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 600;
     color: var(--tercearia);
     text-decoration: none;
@@ -42,7 +42,7 @@ body {
 }
 
 .cabecalho__menu__link:hover {
-    font-size: 1.6rem;
+    font-size: 28px;
 }
 
 .titulo-destaque {
@@ -74,13 +74,13 @@ strong:hover {
 
 .apresentacao__conteudo__titulo {
     font-family: var(--titulo);
-    font-size: 2.25rem;
+    font-size: 36px;
 }
 
 .apresentacao__conteudo__texto {
     font-family: var(--texto);
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 .apresentacao__conteudo__botao {
@@ -103,7 +103,7 @@ strong:hover {
     gap: 16px;
     font-family: var(--texto);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 24px;
     text-align: center;
     width: 378px;
     border-radius: 8px;
@@ -117,7 +117,7 @@ strong:hover {
 .apresentacao__conteudo__botao__link:hover {
     background-color: var(--hover);
     border: 2px solid var(--hover);
-    font-size: 1.5rem;
+    font-size: 26px;
 }
 
 .foto {
@@ -131,7 +131,7 @@ strong:hover {
     padding: 24px;
     text-align: center;
     font-family: var(--texto);
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 400;
 }
 
