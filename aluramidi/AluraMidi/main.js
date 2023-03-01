@@ -1,12 +1,11 @@
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
-let count = 0;
 
 function tocaSom(idElementAudio) {
     document.querySelector(idElementAudio).play();
 }
 
-while(count < listaDeTeclas.length) {
+for (let count = 0; count < listaDeTeclas.length; count++) {
 
     const tecla = listaDeTeclas[count];
 
@@ -19,5 +18,4 @@ while(count < listaDeTeclas.length) {
         tocaSom(idAudio);
     };
     
-    count = count + 1;
 }
