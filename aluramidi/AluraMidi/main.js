@@ -7,8 +7,12 @@ function tocaSom(idElementAudio) {
 }
 
 while(count < listaDeTeclas.length) {
+
     
-    listaDeTeclas[count].onclick = tocaSom;
+    
+    listaDeTeclas[count].onclick = function (){
+        tocaSom();
+    };
     
     count = count + 1;
     console.log(count);
