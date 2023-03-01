@@ -9,7 +9,7 @@ Repositório cirado para desenvolvimento de um projeto feito durante a formaçã
 ## **AluraMidi - Vai dar Namoro**
 
 - [AluraMidi - Vai dar Namoro](https://github.com/carlosvinicius-ai/AluraCurso-Front-End/tree/master/aluramidi/AluraMidi)
-- [Site](https://github.com/carlosvinicius-ai/AluraCurso-Front-End/aluramidi/AluraMidi)
+- [Site](https://carlosvinicius-ai.github.io/AluraCurso-Front-End/aluramidi/AluraMidi)
 
 Projeto finalizado, onde pude desenvolver a lógica de programação com um desafio muito intuito
 
