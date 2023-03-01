@@ -4,7 +4,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 function tocaSom(seletorTagAudio) {
     const elemento = document.querySelector(seletorTagAudio);
 
-    if (elemento != null && elemento.localName === 'audio') {
+    if (elemento && elemento.localName === 'audio') {
         elemento.play();
     } else {
         console.error('Elemento ou seletor invalido não encontrado');
