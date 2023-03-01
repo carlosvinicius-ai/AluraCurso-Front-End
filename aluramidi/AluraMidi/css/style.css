@@ -1,14 +1,14 @@
 :root {
-    --cinza: #aaa;
-    --vermelha: #e93d50;
-    --vermelha-escura: #af303f;
+    --cinza: #EDF1D6;
+    --vermelha: #4E31AA;
+    --vermelha-escura: #3A1078;
     --branca: #fff;
-    --luz: rgb(229, 255, 0);
+    --luz: #609966;
 }
 
 body {
     align-items: center;
-    background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+    background: #40513B;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -38,12 +38,12 @@ h1 {
     box-shadow: 3px 3px 0 var(--cinza);
     color: var(--vermelha);
     cursor: pointer;
-    height: 120px;
+    height: 160px;
     font-size: 1.75em;
     font-weight: bold;
-    line-height: 120px;
+    /*line-height: 120px;*/
     text-align: center;
-    width: 120px;
+    width: 160px;
 }
 
 .tecla.ativa, .tecla:active {
@@ -61,4 +61,20 @@ h1 {
 
 .tecla.active:focus, .tecla:active:focus {
     box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+@media (max-width:768px) {
+    
+    .teclado{
+        box-shadow: 3px 4px 0 3px #666, 5px 5px 5px #000;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tecla {
+        font-size: 1rem;
+        width: 100px;
+        height: 100px;
+    }
+
+
 }
